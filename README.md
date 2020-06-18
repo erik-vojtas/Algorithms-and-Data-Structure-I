@@ -1,6 +1,6 @@
 # Algorithms-and-Data-Structure-I
 
-Bubble sort algorithm
+Bubble sort algorithm - BubbleSort.py
 
 Selection sort algorithm 
 
