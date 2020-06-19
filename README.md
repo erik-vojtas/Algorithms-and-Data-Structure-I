@@ -2,7 +2,7 @@
 
 Bubble sort algorithm - BubbleSort.py
 
-Selection sort algorithm 
+Selection sort algorithm - SelectionSort.py
 
 Insertion sort algorithm
 
