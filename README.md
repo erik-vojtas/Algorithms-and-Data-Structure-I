@@ -4,7 +4,7 @@ Bubble sort algorithm - BubbleSortAlgorithm.py
 
 Selection sort algorithm - SelectionSortAlgorithm.py
 
-Insertion sort algorithm
+Insertion sort algorithm - InsertionSortAlgorithm.py
 
 Quick sort algorithm - recursive
 
