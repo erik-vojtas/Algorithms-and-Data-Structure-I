@@ -8,7 +8,7 @@ Insertion sort algorithm - InsertionSortAlgorithm.py
 
 Quick sort algorithm - QuickSortAlgorithm.py
 
-Merge sort algorithm - recursive
+Merge sort algorithm (recursive) - MergeSortAlgorithm.py
 
 Singly Linked List
 
