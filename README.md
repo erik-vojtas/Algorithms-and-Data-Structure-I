@@ -10,13 +10,14 @@ Quick sort algorithm - QuickSortAlgorithm.py
 
 Merge sort algorithm (recursive) - MergeSortAlgorithm.py
 
-Singly Linked List
+Singly Linked List - SingleLinkedList.py
 
-Doubly Linked List
+Doubly Linked List - DoublyLinkedList.py
 
 Stack
 
 Queue
 
-Trees
 Binary tree
+
+Binary search 
