@@ -6,7 +6,7 @@ Selection sort algorithm - SelectionSortAlgorithm.py
 
 Insertion sort algorithm - InsertionSortAlgorithm.py
 
-Quick sort algorithm - QuickSortAlgorithm.py
+Quick sort algorithm (recursive) - QuickSortAlgorithm.py
 
 Merge sort algorithm (recursive) - MergeSortAlgorithm.py
 
