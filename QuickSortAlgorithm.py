@@ -9,12 +9,21 @@
 # 3. Pivot elements are again chosen for the left and the right sub-parts separately. Within these sub-parts, the pivot elements are placed at their right position. Then, step 2 is repeated.
 # 4. The sub-parts are again divided into smaller sub-parts until each subpart is formed of a single element.
 # 5. At this point, the array is already sorted.
+#
+# https://www.studytonight.com/data-structures/quick-sort
+# Worst Case Time Complexity [Big-O]: O(n**2)
+# Best Case Time Complexity [Big-omega]: O(n*log n)
+# Average Time Complexity [Big-theta]: O(n*log n)
 
+# Video:
+#https://www.youtube.com/watch?v=h_9kAXFKJwY&t=143s
+
+import random
 
 comparisons = 0
 iteration = 0
 swaps = 0
-
+print("Quick Sort Algorithm:")
 def QuickSort(array, start, end):
     global iteration
     global swaps
@@ -45,7 +54,70 @@ def Partition(array, start, end):
     print(f"Iteration {iteration}: {array}")
     return pIndex
 
+swap = 0
+recursion_level = 0
+def partitionRQS(array, left, right):
+    global swap
+    ## random select pivot
+    pIndex = random.randint(left, right)
+    tmp = array[right]
+    array[right] = array[pIndex]
+    array[pIndex] = tmp
+    ##
+    i = left
+    j = right - 1
+    pivot = array[right]
+    # loop - do smthg as long as i not overlaps j
+    while i < j:
+        # loop searchuing element from left which ist greater or equal than pivot
+        while i < right and array[i] < pivot:
+            i = i + 1
+        # loop searching from right element which is smaller than the pivot
+        while j > left and array[j] >= pivot:
+            j = j - 1
+
+        # if i < j
+        # swap array[i] array [j]
+        if i < j:
+            swap += 1
+            tmp = array[i]
+            array[i] = array[j]
+            array[j] = tmp
+
+    # if array[i] > pivot
+    # swap array[i] array[right]
+    if array[i] > pivot:
+        swap += 1
+        tmp = array[i]
+        array[i] = array[right]
+        array[right] = tmp
+    return i
+
+
+def r_quick_sort(array, left, right):
+    global recursion_level
+    if left >= right:
+        return
+
+    p = partitionRQS(array, left, right)
+    # print(recursion_level)
+    # print(left)
+    # print(right)
+    print(array)
+    recursion_level += 1
+    r_quick_sort(array, left, p - 1)
+    recursion_level += 1
+    r_quick_sort(array, p + 1, right)
+    return
+
+
+
 
 array = [2, 7, 4, 1, 5, 3]
 print(f"Unsorted array: {array}")
 print(QuickSort(array, 0, len(array)-1))
+print("---------------------------------------------------------------")
+
+array2 = [2, 7, 4, 1, 5, 3]
+r_quick_sort(array2, 0, len(array)-1)
+print("Swaps:", swaps, "Recursion level:", recursion_level)

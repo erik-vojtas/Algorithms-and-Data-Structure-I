@@ -2,6 +2,12 @@
 # https://www.programiz.com/dsa/selection-sort
 # Compare 2 items next to each other from left to right hand side and look for a min_value. Then min_value is swaped with the first value from left hand side. Then second value and so on...until we get to the last value in array.
 
+# https://www.studytonight.com/data-structures/selection-sorting
+# Worst Case Time Complexity [ Big-O ]: O(n**2)
+# Best Case Time Complexity [Big-omega]: O(n**2)
+# Average Time Complexity [Big-theta]: O(n**2)
+
+print("Selection Sort Algorithm:")
 def SelectionSort(array):
     print(f"Unsorted array: {array}")
     comparisons = 0

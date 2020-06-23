@@ -1,6 +1,15 @@
 # Merge Sort Algorithm
 # https://www.programiz.com/dsa/merge-sort
-# split an array into two halves, sort these two halves and then merge them together in an order
+# split an array into two halves and then again until we get lists which consist one item, merge and sort then two lists together, then again until we get full list which is ordered
+
+# https://www.studytonight.com/data-structures/merge-sort
+# Worst Case Time Complexity [Big-O]: O(n*log n)
+# Best Case Time Complexity [Big-omega]: O(n*log n)
+# Average Time Complexity [Big-theta]: O(n*log n)
+
+# Video:
+# https://www.youtube.com/watch?v=M5kMzPswo20
+
 
 comparisons = 0
 recursions = 0
@@ -21,6 +30,8 @@ def mergeSort(list):
         mid = len(list) // 2
         left_list = list[:mid]
         right_list = list[mid:]
+        print("left list:", left_list)
+        print("right list:", right_list)
         mergeSort(left_list)    # recursion
         mergeSort(right_list)   # recursion
         i = j = k = 0
@@ -35,6 +46,7 @@ def mergeSort(list):
                 list[k] = right_list[j]
                 j += 1
             k += 1
+            print("merge lists:", "left:", left_list, "right:", right_list)
 
         while i < len(left_list):
             list[k] = left_list[i]
@@ -45,6 +57,7 @@ def mergeSort(list):
             list[k] = right_list[j]
             j += 1
             k += 1
+
     return True
 
 

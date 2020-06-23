@@ -5,6 +5,12 @@
 # Now, the first two elements are sorted. Take the third element and compare it with the elements on the left of it.
 # Placed it just behind the element smaller than it. If there is no element smaller than it, then place it at the beginning of the array.
 
+# https://www.studytonight.com/data-structures/insertion-sorting
+# Worst Case Time Complexity [ Big-O ]: O(n**2)
+# Best Case Time Complexity [Big-omega]: O(n)
+# Average Time Complexity [Big-theta]: O(n**2)
+
+print("Insertion Sort Algorithm:")
 def InsertionSort(array):
     print(f"Unsorted array: {array}")
     comparisons = 0
@@ -18,7 +24,7 @@ def InsertionSort(array):
             position -= 1
         array[position+1] = key
         swaps += 1
-        print(f"Iteration {i + 1}: {array}")
+        print(f"Iteration {i}: {array}")
     print(f"Sorted array: {array}, comparisons: {comparisons}, swaps: {swaps}.")
 
 array = [2,7,4,1,5,3]
