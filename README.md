@@ -14,9 +14,9 @@ Singly Linked List - SingleLinkedList.py
 
 Doubly Linked List - DoublyLinkedList.py
 
-Stack
+Stack - Stack.py
 
-Queue
+Queue - Queue.py
 
 Binary tree
 
