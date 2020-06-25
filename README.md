@@ -18,6 +18,6 @@ Stack - Stack.py
 
 Queue - Queue.py
 
-Binary tree
+Binary tree - BinaryTree.py
 
-Binary search - BinarySearch.py
+Binary search
