@@ -20,4 +20,5 @@ Queue - Queue.py
 
 Binary tree - BinaryTree.py
 
-Binary search
+Binary search - BinarySearch.py
+
