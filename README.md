@@ -22,3 +22,5 @@ Binary tree - BinaryTree.py
 
 Binary search - BinarySearch.py
 
+Counting search - CountingSearch.py
+
