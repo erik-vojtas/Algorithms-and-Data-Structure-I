@@ -1,6 +1,7 @@
 # Algorithms-and-Data-Structure-I
 
 Sort Algorithms:
+
 Bubble sort algorithm - BubbleSortAlgorithm.py
 
 Selection sort algorithm - SelectionSortAlgorithm.py
@@ -15,6 +16,7 @@ Counting sort algorithm - CountingSort.py
 
 
 Data Structure:
+
 Singly Linked List - SingleLinkedList.py
 
 Doubly Linked List - DoublyLinkedList.py
@@ -27,7 +29,10 @@ Binary tree - BinaryTree.py
 
 
 Search Algorithms:
+
 Binary search - BinarySearch.py
+
+Linear search - LinearSearch.py
 
 
 
