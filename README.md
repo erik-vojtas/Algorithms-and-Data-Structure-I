@@ -1,5 +1,6 @@
 # Algorithms-and-Data-Structure-I
 
+
 Sort Algorithms:
 
 Bubble sort algorithm - BubbleSortAlgorithm.py
@@ -15,6 +16,7 @@ Merge sort algorithm (recursive) - MergeSortAlgorithm.py
 Counting sort algorithm - CountingSort.py
 
 
+
 Data Structure:
 
 Singly Linked List - SingleLinkedList.py
@@ -26,6 +28,7 @@ Stack - Stack.py
 Queue - Queue.py
 
 Binary tree - BinaryTree.py
+
 
 
 Search Algorithms:
