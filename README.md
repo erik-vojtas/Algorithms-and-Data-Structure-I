@@ -15,7 +15,9 @@ Merge sort algorithm (recursive) - MergeSortAlgorithm.py
 
 Counting sort algorithm - CountingSort.py
 
-Radix sort algorith - RadixSort.py
+Radix sort algorithm - RadixSort.py
+
+Bucket sort algorithm - BucketSort.py
 
 
 
