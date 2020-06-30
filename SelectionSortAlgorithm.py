@@ -12,17 +12,17 @@ def SelectionSort(array):
     print(f"Unsorted array: {array}")
     comparisons = 0
     swaps = 0
-    for i in range(len(array)):
-        min_value = array[i]
-        min_position = i
-        for j in range(i, len(array)):
-            comparisons += 1
-            if array[j] < min_value:
-                min_value = array[j]
-                min_position = j
-        if array[i] != array[min_position]:
-            array[i], array[min_position] = array[min_position], array[i]
-            swaps += 1
+    for i in range(len(array)): # loop over all item in list
+        min_value = array[i] # define min_value
+        min_position = i # define min_position
+        for j in range(i, len(array)):  # loop over all item in list starting from i
+            comparisons += 1 # increase comparisons
+            if array[j] < min_value: # if current_value - array[j] is smaller than min_value
+                min_value = array[j] # then min_value equals to current_value - array[j]
+                min_position = j # min_position equals to current_value index
+        if array[i] != array[min_position]: # if first item is not equal to min_value
+            array[i], array[min_position] = array[min_position], array[i] # then swap these two values, the lowest value is now fixed
+            swaps += 1 # increase swaps
         print(f"Iteration {i + 1}: {array}")
     print(f"Sorted array: {array}, comparisons: {comparisons}, swaps: {swaps}.")
 

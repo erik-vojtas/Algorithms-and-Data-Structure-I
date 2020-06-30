@@ -15,18 +15,18 @@ def InsertionSort(array):
     print(f"Unsorted array: {array}")
     comparisons = 0
     swaps = 0
-    for i in range(1, len(array)):
-        key = array[i]
-        position = i - 1
-        while position >= 0 and key < array[position]:
-            comparisons += 1
+    for i in range(1, len(array)): # iteration starts at 1, ends at the last element of array
+        key = array[i] # key element equals to an element in array with the current index
+        position = i - 1 # position equals to current index minus one
+        while position >= 0 and key < array[position]: # as long as we haven't reached the beginning and there is an element in our sorted array larger than the one we're trying to insert - move that element to the right
+            comparisons += 1 # increase comparisons
             array[position+1] = array[position]
-            position -= 1
+            position -= 1 # decrease position
         array[position+1] = key
-        swaps += 1
+        swaps += 1 # increase swaps
         print(f"Iteration {i}: {array}")
     print(f"Sorted array: {array}, comparisons: {comparisons}, swaps: {swaps}.")
 
-array = [2,7,4,1,5,3]
-
+#array = [2,7,4,1,5,3]
+array = [38,5,1,47,15,36,26,27,2,46,4,19,50,48,9]
 InsertionSort(array)
