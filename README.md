@@ -3,11 +3,11 @@
 
 Sort Algorithms:
 
-Bubble sort algorithm - BubbleSortAlgorithm.py
+Bubble sort algorithm - BubbleSort.py
 
-Selection sort algorithm - SelectionSortAlgorithm.py
+Selection sort algorithm - SelectionSort.py
 
-Insertion sort algorithm - InsertionSortAlgorithm.py
+Insertion sort algorithm - InsertionSort.py
 
 Quick sort algorithm (recursive) - QuickSortAlgorithm.py
 
