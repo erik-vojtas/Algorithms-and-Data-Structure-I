@@ -7,11 +7,11 @@ Bubble sort algorithm - BubbleSort.py
 
 Selection sort algorithm - SelectionSort.py
 
-Insertion sort algorithm - InsertionSort.py
+Insertion sort algorithm - InsertionSort.py *
 
-Quick sort algorithm (recursive) - QuickSortAlgorithm.py
+Quick sort algorithm (recursive) - QuickSortAlgorithm.py *
 
-Merge sort algorithm (recursive) - MergeSortAlgorithm.py
+Merge sort algorithm (recursive) - MergeSortAlgorithm.py *
 
 Counting sort algorithm - CountingSort.py
 
@@ -19,7 +19,9 @@ Radix sort algorithm - RadixSort.py
 
 Bucket sort algorithm - BucketSort.py
 
-Heap sort algorithm - HeapSort.py
+Heap sort algorithm - HeapSort.py *
+
+Shell sort algorithm - ShellSort.py *
 
 
 
