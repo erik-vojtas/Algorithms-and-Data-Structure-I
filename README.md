@@ -19,6 +19,8 @@ Radix sort algorithm - RadixSort.py
 
 Bucket sort algorithm - BucketSort.py
 
+Heap sort algorithm - HeapSort.py
+
 
 
 # Data Structure:
