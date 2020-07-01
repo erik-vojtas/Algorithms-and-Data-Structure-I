@@ -1,7 +1,7 @@
 # Algorithms-and-Data-Structure-I
 
 
-Sort Algorithms:
+# Sort Algorithms:
 
 Bubble sort algorithm - BubbleSort.py
 
@@ -21,7 +21,7 @@ Bucket sort algorithm - BucketSort.py
 
 
 
-Data Structure:
+# Data Structure:
 
 Singly Linked List - SingleLinkedList.py
 
@@ -35,7 +35,7 @@ Binary tree - BinaryTree.py
 
 
 
-Search Algorithms:
+# Search Algorithms:
 
 Binary search - BinarySearch.py
 
