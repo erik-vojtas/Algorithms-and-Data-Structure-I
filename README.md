@@ -37,7 +37,7 @@ Queue - Queue.py
 
 Binary tree - BinaryTree.py
 
-Hash table - HashTable.py
+Hash table - HashTable.py *
 
 
 
