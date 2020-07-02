@@ -37,6 +37,8 @@ Queue - Queue.py
 
 Binary tree - BinaryTree.py
 
+Hash table - HashTable.py
+
 
 
 # Search Algorithms:
